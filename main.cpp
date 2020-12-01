@@ -1,7 +1,6 @@
-#include <iostream>
-
+#include "Connection.h"
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    std::cout << "Hello, World!" << std::endl;
+    Connection c;
+    c.init();
     return 0;
 }
